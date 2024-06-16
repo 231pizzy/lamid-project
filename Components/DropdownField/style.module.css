@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: max-content;
+    min-width: 50px;
+}
+
+.mainContainer {
+    background-color: #F6F6F6;
+    color: black;
+    padding: 0 12px;
+    position: relative;
+    cursor: pointer;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    justify-content: space-between;
+    max-height: 50px;
+    border: 1px solid #1414171A;
+    border-radius: 4px
+}
+
+.content {
+    position: absolute;
+    top: 40px;
+    z-index: 12121223232;
+    border-radius: 8px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    min-width: max-content;
+    max-width: 300px;
+    overflow-y: auto
+}

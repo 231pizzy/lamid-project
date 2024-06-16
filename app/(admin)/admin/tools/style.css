@@ -1,0 +1,3 @@
+.no-vertical-scroll::-webkit-scrollbar-button:vertical:start:decrement {
+    display: none !important;
+}

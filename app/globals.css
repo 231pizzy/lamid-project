@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-container.ql-snow {
+    height: 200px;
+    position: relative;
+}
+
+
+.ql-editor {
+    height: 150px;
+    border-top: 1px solid black;
+    max-height: 200px;
+    overflow-y: scroll;
+}

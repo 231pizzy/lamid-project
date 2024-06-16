@@ -1,0 +1,49 @@
+.Sortable {
+    /*   height: 80vh !important */
+}
+
+.static {
+    /*  display: none !important; */
+}
+
+.react-form-builder.clearfix {
+    position: relative;
+}
+
+.col-md-3.react-form-builder-toolbar.float-right {
+    height: 80vh;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+/* 
+.Sortable {
+    height: 80vh !important;
+    overflow-y: scroll !important;
+} */
+
+/* 
+
+li[draggable="true"] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.control-label,
+.custom-control {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.control-label,
+#optionsApiUrl {
+    display: none;
+}
+
+.col-sm-6>.btn.btn-success {
+    display: none;
+}

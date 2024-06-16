@@ -1,0 +1,108 @@
+.calendarClass {
+    .react-calendar__month-view__weekdays__weekday abbr {
+        text-decoration: none !important;
+        text-transform: none !important;
+    }
+
+    .react-calendar__month-view__weekdays__weekday abbr[title*="Sat"],
+    .react-calendar__month-view__weekdays__weekday abbr[title*="Sun"] {
+        color: #FF1F1F !important;
+    }
+
+
+    .react-calendar__tile--active {
+        background: rgba(191, 6, 6, 0.08) !important;
+        color: #BF0606 !important;
+    }
+
+    .rbc-allday-cell {
+        display: none !important;
+
+    }
+
+    .rbc-today {
+        background-color: transparent !important;
+    }
+
+    .rbc-button-link {
+        flex-direction: column !important;
+        word-wrap: break-word;
+        white-space: normal;
+
+        width: 10%;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        align-self: center;
+        text-align: center;
+    }
+
+
+    .rbc-time-gutter,
+    .rbc-time-header-gutter,
+    .rbc-time-header-content {
+        background-color: rgba(28, 29, 34, 0.04);
+    }
+
+    .rbc-row.rbc-time-header-cell {
+        border-top: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+    }
+
+    .rbc-time-header-content {
+        justify-content: center;
+    }
+
+    .rbc-header {
+        border-left: 1px solid rgba(28, 29, 34, 0.1);
+        border-right: 1px solid rgba(28, 29, 34, 0.1);
+        padding: 4px !important;
+    }
+
+
+    .rbc-today>.rbc-button-link {
+        color: #BF0606 !important;
+    }
+
+    .rbc-header.rbc-today {
+        background: rgba(191, 6, 6, 0.08) !important;
+    }
+
+
+    .rbc-time-slot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: lowercase;
+    }
+
+
+    .rbc-time-gutter.rbc-time-column>.rbc-timeslot-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rbc-label {
+        color: #8D8D8D
+    }
+
+    .rbc-label.rbc-time-header-gutter {
+        width: 72px !important;
+        min-width: 72px !important;
+        max-width: 72px !important;
+    }
+
+    .rbc-day-slot.rbc-time-column>.rbc-timeslot-group .custom-timegroup {
+        border-top: 1px solid grey;
+    }
+
+    .rbc-time-gutter.rbc-time-column>.rbc-timeslot-group>.rbc-time-slot {}
+
+    .rbc-day-slot.rbc-time-column>.rbc-timeslot-group {
+        background-color: #ffffff;
+
+    }
+
+    .rbc-timeslot-group .custom-timegroup {}
+}
